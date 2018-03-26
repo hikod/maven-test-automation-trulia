@@ -26,10 +26,6 @@ import com.trulia.utilities.TestBase;
 public class SearchTest extends TestBase {
 	String HomePageTitle = "Trulia: Real Estate Listings, Homes For Sale, Housing Data";
 
-	/*
-	 * User Story As a user I should be able to choose Homes for Sale from Buy
-	 * module and choose min and max price range from Any Price
-	 */
 	 @Test(groups = "functional")
 	public void TC_1_BuyModuleHomesForSale() throws InterruptedException {
 		// open Home page www.trulia.com
